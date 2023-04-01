@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <script src="https://kit.fontawesome.com/1b3e38231f.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            font-family:'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+        .footer{
+            margin-top: 150px;
+            width: 100%;
+            padding: 100px 15%;
+            background: rgb(23, 22, 22);
+            color: #efefef;
+            display: flex;
+        }
+        .footer div{
+            text-align: center;
+        }
+        .col-2{
+            flex-grow: 2;
+        }
+        .footer div h3{
+            font-weight: 300;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+            color:white;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .col-1 a{
+            display: block;
+            text-decoration: none;
+            color:#efefef;
+            margin-bottom: 10px;
+
+        }
+        form input{
+            width:400px;
+            height: 45px;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            outline: none;
+            border: none;
+        }
+        form button{
+            background: transparent;
+            border:2px solid;
+            color:#efefef;
+            border-radius: 30px;
+            padding: 10px 30px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .Social-icons{
+            margin-top: 30px;
+        }
+        .Social-icons i{
+            font-size: 22px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .end-1 a{
+            float: right;
+            margin-left: 10px;
+            text-decoration: none;
+            color:black;
+            font-size: small;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .col-1:hover a{
+            text-decoration: underline;
+        }
+
+        
+
+       
+
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <div class="col-1">
+            <h3>SOME LINKS</h3>
+            <a href="#">About</a>
+            <a href="#">Vision</a>
+            <a href="#">Contact</a>
+            <a href="#">More</a>
+        </div>
+        <div class="col-2">
+            <h3>JOIN OUR NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">Subscribe Now</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONNECT</h3>
+            <p>123, XYZ, BSK 3<br>Noida, India</p>
+            <div class="Social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <footer class="end-1">
+            <a href="#" type="text" > Security </a>
+            <a href="#" type="text" > Privacy </a>
+            <a href="#" type="text" > Terms </a>
+        </footer>
+    </div>
+    
+
+</body>
+</html>
